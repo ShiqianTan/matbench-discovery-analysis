@@ -1,0 +1,16 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Reproducible generated artifacts
+outputs/figures/
+outputs/tables/
+outputs/grace/
+
+# Benchmark exports are kept locally; verify upstream licensing before sharing.
+data/raw/*.csv
